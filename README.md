@@ -55,3 +55,11 @@ Project Organization
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+
+# Get started
+To install the repository in your machine, run the command:
+``` pip install -e .```
+
+As an example if you want to import code from the file ```make_dataset``` from the src/data folder you would import the code as:
+```from src.data import make_dataset```
